@@ -7,4 +7,4 @@ Usages:-
 
 
 
-<a href="https://github.com/patelravi20/RatingBar/blob/master/Screen%20Shot%202018-07-26%20at%203.36.07%20PM.png"><img src="https://github.com/patelravi20/RatingBar/blob/master/Screen%20Shot%202018-07-26%20at%203.36.07%20PM.png" title=""/></a>
+<a href="RatingBar/Screen Shot 2018-07-26 at 3.50.17 PM.png"><img src="RatingBar/Screen Shot 2018-07-26 at 3.50.17 PM.png" title=""/></a>
