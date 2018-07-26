@@ -52,4 +52,4 @@ class ViewController: UIViewController,RatingControllerDelegate{
 **Step 4:- Output**
 <br>
 <br>
-<a href="https://github.com/patelravi20/RatingBar/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-07-26%20at%2016.19.53.png"><img src="https://github.com/patelravi20/RatingBar/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-07-26%20at%2016.19.53.png" title=""/></a>
+<a href="https://github.com/patelravi20/RatingBar/blob/master/ezgif.com-video-to-gif.gif"><img src="https://github.com/patelravi20/RatingBar/blob/master/ezgif.com-video-to-gif.gif" title=""/></a>
