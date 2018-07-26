@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tr0-8l-ohq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Evq-Wm-G71">
+            <objects>
+                <viewController id="tr0-8l-ohq" customClass="ViewController" customModule="CustomRatingControlExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Txf-pY-61r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EJ8-y2-AXO">
+                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="7PS-rb-lbl"/>
+                                    <constraint firstAttribute="height" constant="300" id="xkB-Tg-gG9"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Select Photo">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name=".SFNSText"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="btnPhotoSelectAction:" destination="tr0-8l-ohq" eventType="touchUpInside" id="sy6-04-R76"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1lI-Vh-2we" customClass="RatingControl" customModule="CustomRatingControlExample" customModuleProvider="target">
+                                <rect key="frame" x="56" y="555" width="252" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="pnQ-Mf-eL6"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgv-Qe-nMD">
+                                <rect key="frame" x="111" y="636" width="171" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7xv-Ye-OPc" firstAttribute="bottom" secondItem="hgv-Qe-nMD" secondAttribute="bottom" constant="30" id="TEj-X8-11s"/>
+                            <constraint firstItem="EJ8-y2-AXO" firstAttribute="centerX" secondItem="Txf-pY-61r" secondAttribute="centerX" id="ayF-SY-BWB"/>
+                            <constraint firstItem="hgv-Qe-nMD" firstAttribute="centerX" secondItem="Txf-pY-61r" secondAttribute="centerX" id="bv1-20-Fiv"/>
+                            <constraint firstItem="1lI-Vh-2we" firstAttribute="top" secondItem="EJ8-y2-AXO" secondAttribute="bottom" constant="20" id="o2t-gd-anb"/>
+                            <constraint firstItem="1lI-Vh-2we" firstAttribute="centerX" secondItem="Txf-pY-61r" secondAttribute="centerX" id="wh6-A1-Uoy"/>
+                            <constraint firstItem="EJ8-y2-AXO" firstAttribute="centerY" secondItem="Txf-pY-61r" secondAttribute="centerY" id="xbf-GD-Mzc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7xv-Ye-OPc"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnPhotoSelect" destination="EJ8-y2-AXO" id="EaP-K0-2d1"/>
+                        <outlet property="lblRatingInfo" destination="hgv-Qe-nMD" id="b5k-oP-Dmp"/>
+                        <outlet property="ratingStackView" destination="1lI-Vh-2we" id="bbP-8l-ZBC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8gW-8i-Ojo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821.60000000000002" y="158.77061469265368"/>
+        </scene>
+    </scenes>
+</document>
