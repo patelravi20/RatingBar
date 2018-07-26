@@ -51,4 +51,4 @@ class ViewController: UIViewController,RatingControllerDelegate{
 <br>
 **Step 4:- Output**
 
-<a href="https://github.com/patelravi20/RatingBar/blob/master/Screen%20Shot%202018-07-26%20at%203.50.17%20PM.png"><img src="https://github.com/patelravi20/RatingBar/blob/master/Screen%20Shot%202018-07-26%20at%203.50.17%20PM.png" title=""/></a>
+<a href="https://github.com/patelravi20/RatingBar/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-07-26%20at%2016.19.53.png"><img src="https://github.com/patelravi20/RatingBar/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-07-26%20at%2016.19.53.png" title=""/></a>
