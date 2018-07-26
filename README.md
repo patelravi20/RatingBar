@@ -8,10 +8,8 @@
 <br>
 <a href="https://github.com/patelravi20/RatingBar/blob/master/Screen%20Shot%202018-07-26%20at%203.50.17%20PM.png"><img src="https://github.com/patelravi20/RatingBar/blob/master/Screen%20Shot%202018-07-26%20at%203.50.17%20PM.png" title=""/></a>
 
-<br>
-<br>
-<br>
 **Step 2:- here you Can set button Image Size,Button Star Count and Also set your own Image**
+<br>
 <br>
 <a href="https://github.com/patelravi20/RatingBar/blob/master/Screen%20Shot%202018-07-26%20at%203.54.54%20PM.png"><img src="https://github.com/patelravi20/RatingBar/blob/master/Screen%20Shot%202018-07-26%20at%203.54.54%20PM.png" title=""/></a>
 
