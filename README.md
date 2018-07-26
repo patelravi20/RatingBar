@@ -18,7 +18,7 @@
 <br>
 
 
-**Step 3:- Write RatingControllerDelegate where you get ratingBar Action**
+**Step 3:- Write <u>RatingControllerDelegate</u> where you get ratingBar Action**
 ```
 class ViewController: UIViewController,RatingControllerDelegate{
     func didSelected(rating: Int) {
