@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'RPRatingbar'
+  s.framework  = "Foundation"
   s.version      = "1.0.0"
   s.summary      = "RPRatingbar is a Ratingview in User Feedback"
   s.homepage     = "https://github.com/patelravi20/RatingBar.git"
