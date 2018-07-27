@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/patelravi20/RatingBar.git'
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "Ravi Patel" => "patelravip20@gmail.com" }
-  s.source           = { :git => 'https://github.com/patelravi20/RatingBar.git', :branch  => "master", :tag => "1.0.0"}
+  s.source           = { :git => 'https://github.com/patelravi20/RatingBar.git'}
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
   s.source_files = "CustomRatingControlExample/CustomRatingControlExample/Controller/Rating Controller/*.swift"
