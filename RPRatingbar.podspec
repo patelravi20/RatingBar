@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = 'RPRatingbar'
   s.framework  = "Foundation"
-  s.version      = "1.0.0"
-  s.summary      = "RPRatingbar is a Ratingview in User Feedback"
-  s.homepage     = "https://github.com/patelravi20/RatingBar.git"
+  s.version      = '1.0.0'
+  s.summary      = 'RPRatingbar is a Ratingview in User Feedback'
+  s.homepage     = 'https://github.com/patelravi20/RatingBar.git'
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "Ravi Patel" => "patelravip20@gmail.com" }
   s.source           = { :git => 'https://github.com/patelravi20/RatingBar.git', :branch  => "master", :tag => "1.0.0"}
