@@ -6,7 +6,7 @@ DESC
   s.homepage     = "https://github.com/patelravi20/RatingBar"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "Ravi Patel" => "patelravip20@gmail.com" }
-  s.source           = { :git => 'https://github.com/vishalkalola1/DrawPDF.git', :branch  => "master", :tag => "1.7"}
+  s.source           = { :git => 'https://github.com/patelravi20/RPRatingbar.git', :branch  => "master", :tag => "1.0.0"}
   s.platform     = :ios
   s.sources_files = "Sources/*.swift"
   s.requires_arc = true
