@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "RPRatingbar"
+  s.name         = 'RPRatingbar'
   s.version      = "1.0.0"
   s.summary      = "A short description of RPRatingbar."
 DESC
