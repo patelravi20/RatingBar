@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EJ8-y2-AXO">
-                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <rect key="frame" x="38" y="184" width="300" height="300"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="7PS-rb-lbl"/>
@@ -39,14 +39,15 @@
                                     <action selector="btnPhotoSelectAction:" destination="tr0-8l-ohq" eventType="touchUpInside" id="sy6-04-R76"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1lI-Vh-2we" customClass="RatingControl" customModule="CustomRatingControlExample" customModuleProvider="target">
-                                <rect key="frame" x="56" y="555" width="252" height="44"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1lI-Vh-2we" customClass="RatingControl" customModule="CustomRatingControlExample" customModuleProvider="target">
+                                <rect key="frame" x="56" y="504" width="263" height="44"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="263" id="43d-Lc-ljx"/>
                                     <constraint firstAttribute="height" constant="44" id="pnQ-Mf-eL6"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgv-Qe-nMD">
-                                <rect key="frame" x="111" y="636" width="171" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgv-Qe-nMD">
+                                <rect key="frame" x="154" y="603" width="67" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -54,11 +55,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="1lI-Vh-2we" firstAttribute="top" secondItem="EJ8-y2-AXO" secondAttribute="bottom" constant="20" id="9r9-g8-efY"/>
+                            <constraint firstItem="1lI-Vh-2we" firstAttribute="centerX" secondItem="EJ8-y2-AXO" secondAttribute="centerX" id="Fdt-sn-A2H"/>
                             <constraint firstItem="7xv-Ye-OPc" firstAttribute="bottom" secondItem="hgv-Qe-nMD" secondAttribute="bottom" constant="30" id="TEj-X8-11s"/>
                             <constraint firstItem="EJ8-y2-AXO" firstAttribute="centerX" secondItem="Txf-pY-61r" secondAttribute="centerX" id="ayF-SY-BWB"/>
                             <constraint firstItem="hgv-Qe-nMD" firstAttribute="centerX" secondItem="Txf-pY-61r" secondAttribute="centerX" id="bv1-20-Fiv"/>
-                            <constraint firstItem="1lI-Vh-2we" firstAttribute="top" secondItem="EJ8-y2-AXO" secondAttribute="bottom" constant="20" id="o2t-gd-anb"/>
-                            <constraint firstItem="1lI-Vh-2we" firstAttribute="centerX" secondItem="Txf-pY-61r" secondAttribute="centerX" id="wh6-A1-Uoy"/>
                             <constraint firstItem="EJ8-y2-AXO" firstAttribute="centerY" secondItem="Txf-pY-61r" secondAttribute="centerY" id="xbf-GD-Mzc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7xv-Ye-OPc"/>
