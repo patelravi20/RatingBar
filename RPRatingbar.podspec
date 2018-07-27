@@ -8,6 +8,6 @@ DESC
   s.author             = { "Ravi Patel" => "patelravip20@gmail.com" }
   s.source           = { :git => 'https://github.com/patelravi20/RPRatingbar.git', :branch  => "master", :tag => "1.0.0"}
   s.platform     = :ios
-  s.sources_files = "Sources/*.swift"
+  s.sources_files = "RatingBar/CustomRatingControlExample/CustomRatingControlExample/Controller/Rating Controller/*.swift"
   s.requires_arc = true
 end
